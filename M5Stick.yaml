@@ -161,6 +161,7 @@ graphical_display_menu:
       component.update: my_display
   font: font2
   active: true
+## Edit Items to your liking
   items:
     - type: label
       text: Normal label
@@ -171,7 +172,7 @@ graphical_display_menu:
           text: A child menu item
         - type: back
           text: Back 
-
+##
 time:
   - platform: homeassistant
     id: homeassistant_time
